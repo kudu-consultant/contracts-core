@@ -3,8 +3,7 @@
   "version": "0.0.0",
   "license": "ISC",
   "scripts": {
-    "build:forge": "forge build",
-    "build:hardhat": "hardhat compile",
+    "build": "forge build",
     "test": "forge test -vvvv"
   },
   "devDependencies": {
