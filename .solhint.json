@@ -2,6 +2,8 @@
   "extends": "solhint:recommended",
   "rules": {
     "no-console": "off",
+    "no-global-import": "off",
+    "var-name-mixedcase": "off",
     "compiler-version": ["error", "0.8.19"]
   }
 }
