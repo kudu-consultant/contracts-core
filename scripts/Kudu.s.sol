@@ -11,6 +11,7 @@ import "../src/Kudu.sol";
  */
 contract Deploy is Script {
   function run() external {
+    //Esto es la address publica
     address deployerPublicKey = vm.envAddress("PUBLIC_KEY");
     uint256 deployerPrivateKey = vm.envUint("PRIVATE_KEY");
 
